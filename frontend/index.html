@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Gig Worker Insurance</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>AI Insurance for Gig Workers</h1>
+
+<div class="container">
+  <h2>Register</h2>
+  <input type="text" id="name" placeholder="Enter Name">
+  <select id="city">
+    <option>Vijayawada</option>
+    <option>Hyderabad</option>
+  </select>
+  <button onclick="register()">Register</button>
+
+  <h2>Weekly Plan</h2>
+  <button onclick="calculatePremium()">Calculate Premium</button>
+  <p id="premium"></p>
+
+  <h2>Trigger Claim</h2>
+  <button onclick="triggerClaim()">Simulate Heavy Rain</button>
+  <p id="claim"></p>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
