@@ -51,7 +51,7 @@ Tech Stack
 - Claim simulation
 - Simple UI flow
 
-## 🚀 Future Enhancements
+ Future Enhancements
 - Real weather API integration
 - Payment gateway integration
 - Admin dashboard
